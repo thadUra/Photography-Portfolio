@@ -32,6 +32,3 @@ Version 4.1
 
 Version 4.2
     - Fixed captcha positioning on form
-
-Version 5.0
-    - Added secret webpage to an archive
