@@ -1,0 +1,242 @@
+html {
+	background: url("/img/pictures/panther/pantherleft5.jpg") no-repeat center fixed; 
+	background-size: cover;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,a {
+	font-family: Montserrat; 
+	color: #fff;
+	padding: 0px;
+    margin: 0; 
+    font-weight:lighter;
+}
+
+/* Different banner styles */
+.white_Border {
+    border:4px solid #fff;
+    clear:left;
+}
+.banner_Name {
+    font-size:50px;
+    text-decoration:none;
+    opacity:0.8;
+    width:100%;
+    border:5px solid #fff;
+    padding:10px;
+    border-radius:7px;
+    text-align: center;
+}
+.pg_Banner {
+    border:none;
+    opacity:1;
+    font-size:75px;
+}
+.menu, .logo {
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    margin:25px;;
+    opacity:0.7;
+}
+.menu {
+    float: right;
+    font-size: 24px;
+    position:relative;
+    margin-top: 35px;
+}
+.logo {
+    font-size:35px;
+    margin-left:35px;
+}
+.menu:hover, .logo:hover, .banner_Name:hover {
+    opacity:1;
+}
+.menu_Row {
+    text-align: center;
+}
+.left_div {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+    float:left;
+}
+.right_div {
+    display: inline-block;
+    max-width: 100%;  
+    float:right;
+}
+.banner_Name_Pad {
+    padding:100px;
+}
+
+/*Photo Grid Styles*/
+.photo_Grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 250px;
+    background-color: #fff;
+}
+.photo_Column {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 3px;
+}
+.photo_Column img {
+    margin-top: 4px;
+
+    width: 100%;
+}
+.table_Settings {
+    padding:0px;
+    border-spacing:0px;
+    border-left:auto;
+    border-right:auto;
+    border-collapse:separate;
+    width:100%;
+}
+.media {
+	margin:10px;
+	height:35px;
+	width:35px;
+    opacity:0.7;
+    display: inline-block;
+}
+.media:hover, .button:hover {
+    opacity:1;
+}
+
+/* Buttons */
+.button {
+	font-family: Montserrat;
+	background-color: transparent;
+	cursor: pointer;
+	overflow: hidden;
+	height: 47px;
+	line-height: 28px;
+	border: 3px solid #333333;
+	display: inline-block;
+	text-align: center;
+	width: 110px;
+	padding: 5px;
+	font-size: 31px;
+	color: #333333;
+    opacity:0.7;
+    font-weight: lighter;
+    border-radius:7px;
+}
+
+/*Info Padding and Styles*/
+.info_Padding {
+    padding-top:25%;
+    padding-left: 100px;
+    padding-right:100px;
+}
+.info_Settings {
+    color:#333333;
+    opacity:0.8;
+    font-size: 25px;
+}
+
+/* Window Resizing for menu bar and other banner names. */ 
+@media screen and (max-width: 1400px) {
+    .photo_Grid {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    .info_Settings {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .info_Padding {
+        padding-top:25%;
+        padding-left: 80px;
+        padding-right:80px;
+    }
+    .info_Settings {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .photo_Column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .info_Padding {
+        padding:100px;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .left_div, .right_div {
+        float:none;
+    }
+    .banner_Name {
+        font-size:30px;
+        border:3px solid #fff;
+        padding:5px;
+        border-radius:7px;
+    }
+    .pg_Banner {
+        border:none;
+        font-size:50px;
+    }
+    .banner_Name_Pad {
+        padding:80px 30px 80px 30px;
+    }    
+    .photo_Grid {
+        padding: 0 50px;
+    }
+    .button {
+        height: 32px;
+        line-height: 20px;
+        width: 75px;
+        padding: 3px;
+        font-size: 20px;
+    }
+    .info_Padding {
+        padding:35px;
+    }
+    .info_Settings {
+        font-size: 20px;
+    }
+}
+
+/* Mobile resize */
+@media screen and (max-width: 450px) {
+    .banner_Name {
+        font-size:20px;
+        border:3px solid #fff;
+        padding:10px;
+        border-radius:7px;
+    }
+    .menu {
+        font-size: 18px;
+        margin:11px;
+    }
+    .logo {
+        margin:20px 10px 10px 10px;
+    }
+    .pg_Banner {
+        border:none;
+        font-size:35px;
+    }
+    .banner_Name_Pad {
+        padding:50px 15px 50px 15px;
+    }  
+    .photo_Grid {
+        padding: 0 30px;
+    }
+    .info_Padding {
+        padding:15px;
+    }
+    .info_Settings {
+        font-size: 13px;
+    }
+}
