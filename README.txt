@@ -36,3 +36,6 @@ Version 4.2
 Version 5.0
     - Added project bonfire banner in portfolio
     - Added project bonfire html page
+
+Version 5.1
+    - Removed tidio due to users not interacting with its purpose
