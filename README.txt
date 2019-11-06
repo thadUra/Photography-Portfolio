@@ -39,3 +39,9 @@ Version 5.0
 
 Version 5.1
     - Removed tidio due to users not interacting with its purpose
+
+Version 6.0 
+    - Added black and white page
+    - Added selective color page
+    - Added light painting page 
+    - Added the three new banners to portfolio
